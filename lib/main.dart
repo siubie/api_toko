@@ -1,6 +1,8 @@
+import 'package:api_toko/core/service_locator.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  setupServiceLocator();
   runApp(const MyApp());
 }
 
